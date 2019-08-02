@@ -19,6 +19,7 @@
     "@fortawesome/react-fontawesome": "^0.1.4",
     "@zeit/next-css": "^1.0.1",
     "bulma": "^0.7.5",
+    "disqus-react": "^1.0.6",
     "next": "^9.0.0",
     "prop-types": "^15.7.2",
     "react": "^16.8.6",

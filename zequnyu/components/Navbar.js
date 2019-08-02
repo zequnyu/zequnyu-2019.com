@@ -44,15 +44,15 @@ class Navbar extends React.Component {
                     </div>
                     <div className={this.state.burgerActive ? "navbar-menu is-active": "navbar-menu"} id="menu-hero">
                         <div className="navbar-item" id="navbar-center">
-                            {/*<Link href="/">*/}
-                            {/*    <span*/}
-                            {/*        name="project"*/}
-                            {/*        className="button is-white"*/}
-                            {/*        id="navbar-center-item"*/}
-                            {/*    >*/}
-                            {/*        project*/}
-                            {/*    </span>*/}
-                            {/*</Link>*/}
+                            <Link href="/trend">
+                                <span
+                                    name="trend"
+                                    className="nav-button is-white"
+                                    id="navbar-center-item"
+                                >
+                                    trend
+                                </span>
+                            </Link>
                             {/*<Link href={`/blog`}>*/}
                             {/*    <span*/}
                             {/*        name="blog"*/}
@@ -62,14 +62,14 @@ class Navbar extends React.Component {
                             {/*        blog*/}
                             {/*    </span>*/}
                             {/*</Link>*/}
-                            <a href='/static/cv.pdf'>
+                            <Link href='/static/cv.pdf'>
                                 <span
                                     name="resume"
                                     className="nav-button is-white"
                                 >
                                     resume
                                 </span>
-                            </a>
+                            </Link>
                         </div>
 
                         <div className="navbar-end">

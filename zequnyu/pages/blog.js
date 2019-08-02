@@ -1,9 +1,11 @@
 import React from 'react';
 
+import 'bulma/css/bulma.min.css'
+
 
 function Blog() {
     return (
-        <div className="">
+        <div className="section">
             Blog
         </div>
     );
