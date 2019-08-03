@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 
 import 'bulma/css/bulma.min.css'
 import '../styles/Footer.css'
@@ -12,6 +13,9 @@ function Footer(props) {
                 <span className="footer-text">© Copyright 2019 </span>
                 <div className="footer-img" />
                 <span className="footer-text"> Zequn Yu</span>
+                <Link href={'/commento'}>
+                    <a className="commento" />
+                </Link>
             </div>
         </footer>
     );

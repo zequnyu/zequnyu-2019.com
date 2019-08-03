@@ -33,3 +33,17 @@
     background-position: -2800px 0;
     transition: background 1s steps(28);
 }
+
+.commento {
+    background: url('/static/commento.svg') no-repeat 0 0;
+    opacity: 0.1;
+    width: 10px;
+    height: 10px;
+    margin-top: 45px;
+    margin-left: 10px;
+    transition: all 0.2s ease;
+}
+
+.commento:hover {
+    opacity: 0.2;
+}
